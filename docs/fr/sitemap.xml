@@ -2,46 +2,46 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://example.com/fr/</loc>
+    <loc>https://philipp-otter.github.io/SocialDataWithTheBESTGroupEver/fr/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://example.com/"
+                href="https://philipp-otter.github.io/SocialDataWithTheBESTGroupEver/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://example.com/fr/"
+                href="https://philipp-otter.github.io/SocialDataWithTheBESTGroupEver/fr/"
                 />
   </url><url>
-    <loc>https://example.com/fr/categories/</loc>
+    <loc>https://philipp-otter.github.io/SocialDataWithTheBESTGroupEver/fr/categories/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://example.com/categories/"
+                href="https://philipp-otter.github.io/SocialDataWithTheBESTGroupEver/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://example.com/fr/categories/"
+                href="https://philipp-otter.github.io/SocialDataWithTheBESTGroupEver/fr/categories/"
                 />
   </url><url>
-    <loc>https://example.com/fr/tags/</loc>
+    <loc>https://philipp-otter.github.io/SocialDataWithTheBESTGroupEver/fr/tags/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://example.com/tags/"
+                href="https://philipp-otter.github.io/SocialDataWithTheBESTGroupEver/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://example.com/fr/tags/"
+                href="https://philipp-otter.github.io/SocialDataWithTheBESTGroupEver/fr/tags/"
                 />
   </url>
 </urlset>
