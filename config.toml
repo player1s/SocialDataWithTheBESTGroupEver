@@ -1,7 +1,6 @@
 title = "Notre-Dame de Paris"
 baseURL = "https://philipp-otter.github.io/SocialDataWithTheBESTGroupEver/"
 languageCode = "en-us"
-theme = "ananke"
 resourceDir = "../resources"
 publishDir = "docs"
 
