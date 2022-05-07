@@ -60,6 +60,10 @@ body {
   height: 500px;
 }
 
+.myCarousel {
+  height: 100%
+}
+
 
 /* MARKETING CONTENT
 -------------------------------------------------- */
