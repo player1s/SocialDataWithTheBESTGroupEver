@@ -1,7 +1,6 @@
 html,
 body {
     height: 100%;
-    color: blue;
 }
 
 h2 {
@@ -16,6 +15,10 @@ h2 {
 
 .carousel-inner {
     height: 100%;
+}
+
+.carousel-caption {
+  color: blue;
 }
 
 .fill {
