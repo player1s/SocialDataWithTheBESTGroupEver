@@ -35,6 +35,7 @@
     <script> 
       $(function(){
         $("#includeBikingStations").load("bike_rental_map.html"); 
+        $("#HiresPerDay").load("numberOfHiresPerDay.html");
       });
       </script>
 
@@ -157,8 +158,13 @@
               </div>
   
               <div class="row">
-                <div class="col-sm-12 p-1 text-center">
-                  <h1>Idea 1: talk about positive and negative correlations and the most obvious stuff: temperature, wind, humidity (rain). show and talk about the plot of rentals / day</h1>
+                <div class="col-sm-6 p-2 text-center">
+                  <h1>Main contributor: weather</h1>
+                  <p>The first map shows the number of cycle hires day by day. While the second map displays the air temperatures in London</p>
+                </div>
+                
+                <div class="col-sm-6 p-2 text-center" id="HiresPerDay">
+                  
                 </div>
               </div>
   
