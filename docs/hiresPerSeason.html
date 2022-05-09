@@ -1,0 +1,85 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+  
+  <head>
+    
+      <meta charset="utf-8">
+      <title>Bokeh Plot</title>
+      
+      
+        
+          
+        
+        
+          
+        <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-2.4.2.min.js"></script>
+        <script type="text/javascript">
+            Bokeh.set_log_level("info");
+        </script>
+        
+      
+      
+    
+  </head>
+  
+  
+  <body>
+    
+      
+        
+          
+          
+            
+              <div class="bk-root" id="2b26f85a-3f88-4be5-b527-e6d3271d9c76" data-root-id="5924"></div>
+            
+          
+        
+      
+      
+        <script type="application/json" id="6250">
+          {"5d0287db-f132-49cb-b13b-6a05165dea0d":{"defs":[],"roots":{"references":[{"attributes":{},"id":"5944","type":"WheelZoomTool"},{"attributes":{"data":{"x":[0,1,2,3,4,5,6],"y":{"__ndarray__":"X0J7Ca2Q10Ce2Imd2JLXQAAAAABgwdZAFDuxE9vC1kCxEzuxk9XZQIqd2IlNVOBA7SW0l9Aa3kA=","dtype":"float64","order":"little","shape":[7]}},"selected":{"id":"5971"},"selection_policy":{"id":"5970"}},"id":"5957","type":"ColumnDataSource"},{"attributes":{"bottom_units":"screen","coordinates":null,"fill_alpha":0.5,"fill_color":"lightgrey","group":null,"left_units":"screen","level":"overlay","line_alpha":1.0,"line_color":"black","line_dash":[4,4],"line_width":2,"right_units":"screen","syncable":false,"top_units":"screen"},"id":"5949","type":"BoxAnnotation"},{"attributes":{"tools":[{"id":"5943"},{"id":"5944"},{"id":"5945"},{"id":"5946"},{"id":"5947"},{"id":"5948"},{"id":"6040"}]},"id":"5950","type":"Toolbar"},{"attributes":{"line_alpha":0.2,"line_color":"blue","line_width":2,"x":{"field":"x"},"y":{"field":"y"}},"id":"5978","type":"Line"},{"attributes":{"line_alpha":0.8,"line_color":"red","line_width":2,"x":{"field":"x"},"y":{"field":"y"}},"id":"5958","type":"Line"},{"attributes":{},"id":"5947","type":"ResetTool"},{"attributes":{},"id":"5943","type":"PanTool"},{"attributes":{"data":{"x":[0,1,2,3,4,5,6],"y":{"__ndarray__":"dmIndmJk3UAUO7ETe0XgQHZiJ3YyouBAAAAAAMB54EDZiZ3YKbDfQLETO7GjYeFAO7ETO5GU30A=","dtype":"float64","order":"little","shape":[7]}},"selected":{"id":"6012"},"selection_policy":{"id":"6011"}},"id":"5994","type":"ColumnDataSource"},{"attributes":{"overlay":{"id":"5949"}},"id":"5945","type":"BoxZoomTool"},{"attributes":{"label":{"value":"Summer"},"renderers":[{"id":"5979"}]},"id":"5993","type":"LegendItem"},{"attributes":{"source":{"id":"6015"}},"id":"6020","type":"CDSView"},{"attributes":{"axis_label":"Bicycle hires","coordinates":null,"formatter":{"id":"5965"},"group":null,"major_label_policy":{"id":"5966"},"ticker":{"id":"5940"}},"id":"5939","type":"LinearAxis"},{"attributes":{"callback":null,"formatters":{"X_value":{"id":"6038"},"Y_value":{"id":"6039"}},"line_policy":"next","show_arrow":false,"tooltips":[["Number of Cases","$data_y"]]},"id":"6040","type":"HoverTool"},{"attributes":{},"id":"5968","type":"BasicTickFormatter"},{"attributes":{"below":[{"id":"5935"}],"center":[{"id":"5938"},{"id":"5942"},{"id":"5973"}],"height":300,"left":[{"id":"5939"}],"renderers":[{"id":"5961"},{"id":"5979"},{"id":"5998"},{"id":"6019"}],"title":{"id":"5925"},"toolbar":{"id":"5950"},"width":500,"x_range":{"id":"5927"},"x_scale":{"id":"5931"},"y_range":{"id":"5929"},"y_scale":{"id":"5933"}},"id":"5924","subtype":"Figure","type":"Plot"},{"attributes":{"label":{"value":"Winter"},"renderers":[{"id":"6019"}]},"id":"6037","type":"LegendItem"},{"attributes":{"coordinates":null,"data_source":{"id":"5975"},"glyph":{"id":"5976"},"group":null,"hover_glyph":null,"muted_glyph":{"id":"5978"},"nonselection_glyph":{"id":"5977"},"view":{"id":"5980"}},"id":"5979","type":"GlyphRenderer"},{"attributes":{},"id":"5946","type":"SaveTool"},{"attributes":{},"id":"5948","type":"HelpTool"},{"attributes":{"code":"\n    return '' + special_vars.data_x\n"},"id":"6038","type":"CustomJSHover"},{"attributes":{"code":"\n    return '' + special_vars.data_y\n"},"id":"6039","type":"CustomJSHover"},{"attributes":{"coordinates":null,"group":null,"items":[{"id":"5974"},{"id":"5993"},{"id":"6014"},{"id":"6037"}],"location":"top_left"},"id":"5973","type":"Legend"},{"attributes":{},"id":"5929","type":"DataRange1d"},{"attributes":{"data":{"x":[0,1,2,3,4,5,6],"y":{"__ndarray__":"7SW0l3B84EAvob2EFn7iQMVO7MTuUOJAFDuxExsY4kCe2ImdiNbhQE/sxE7sDOVAip3YiS3N4kA=","dtype":"float64","order":"little","shape":[7]}},"selected":{"id":"5991"},"selection_policy":{"id":"5990"}},"id":"5975","type":"ColumnDataSource"},{"attributes":{"line_alpha":0.1,"line_color":"green","line_width":2,"x":{"field":"x"},"y":{"field":"y"}},"id":"5996","type":"Line"},{"attributes":{},"id":"6035","type":"Selection"},{"attributes":{},"id":"5991","type":"Selection"},{"attributes":{"source":{"id":"5975"}},"id":"5980","type":"CDSView"},{"attributes":{},"id":"5971","type":"Selection"},{"attributes":{},"id":"5927","type":"DataRange1d"},{"attributes":{"axis":{"id":"5935"},"coordinates":null,"group":null,"ticker":null},"id":"5938","type":"Grid"},{"attributes":{"coordinates":null,"data_source":{"id":"6015"},"glyph":{"id":"6016"},"group":null,"hover_glyph":null,"muted_glyph":{"id":"6018"},"nonselection_glyph":{"id":"6017"},"view":{"id":"6020"}},"id":"6019","type":"GlyphRenderer"},{"attributes":{},"id":"5940","type":"BasicTicker"},{"attributes":{},"id":"5936","type":"BasicTicker"},{"attributes":{},"id":"5933","type":"LinearScale"},{"attributes":{"line_alpha":0.2,"line_color":"yellow","line_width":2,"x":{"field":"x"},"y":{"field":"y"}},"id":"6018","type":"Line"},{"attributes":{},"id":"5969","type":"AllLabels"},{"attributes":{"axis_label":"Date","coordinates":null,"formatter":{"id":"5968"},"group":null,"major_label_policy":{"id":"5969"},"ticker":{"id":"5936"}},"id":"5935","type":"LinearAxis"},{"attributes":{"line_alpha":0.1,"line_color":"blue","line_width":2,"x":{"field":"x"},"y":{"field":"y"}},"id":"5977","type":"Line"},{"attributes":{"source":{"id":"5957"}},"id":"5962","type":"CDSView"},{"attributes":{},"id":"5931","type":"LinearScale"},{"attributes":{},"id":"5970","type":"UnionRenderers"},{"attributes":{},"id":"5990","type":"UnionRenderers"},{"attributes":{},"id":"6034","type":"UnionRenderers"},{"attributes":{"coordinates":null,"group":null,"text":"Bike hires per season"},"id":"5925","type":"Title"},{"attributes":{"line_alpha":0.8,"line_color":"green","line_width":2,"x":{"field":"x"},"y":{"field":"y"}},"id":"5995","type":"Line"},{"attributes":{"coordinates":null,"data_source":{"id":"5957"},"glyph":{"id":"5958"},"group":null,"hover_glyph":null,"muted_glyph":{"id":"5960"},"nonselection_glyph":{"id":"5959"},"view":{"id":"5962"}},"id":"5961","type":"GlyphRenderer"},{"attributes":{"source":{"id":"5994"}},"id":"5999","type":"CDSView"},{"attributes":{"line_alpha":0.1,"line_color":"red","line_width":2,"x":{"field":"x"},"y":{"field":"y"}},"id":"5959","type":"Line"},{"attributes":{"data":{"x":[0,1,2,3,4,5,6],"y":{"__ndarray__":"AAAAAACQ0UAUrkfh+uLSQCd2YidW6dNAT+zETsxs00CKndiJnVfUQLETO7HzidVArkfhehT90EA=","dtype":"float64","order":"little","shape":[7]}},"selected":{"id":"6035"},"selection_policy":{"id":"6034"}},"id":"6015","type":"ColumnDataSource"},{"attributes":{},"id":"6011","type":"UnionRenderers"},{"attributes":{"coordinates":null,"data_source":{"id":"5994"},"glyph":{"id":"5995"},"group":null,"hover_glyph":null,"muted_glyph":{"id":"5997"},"nonselection_glyph":{"id":"5996"},"view":{"id":"5999"}},"id":"5998","type":"GlyphRenderer"},{"attributes":{"axis":{"id":"5939"},"coordinates":null,"dimension":1,"group":null,"ticker":null},"id":"5942","type":"Grid"},{"attributes":{"line_alpha":0.2,"line_color":"red","line_width":2,"x":{"field":"x"},"y":{"field":"y"}},"id":"5960","type":"Line"},{"attributes":{"line_alpha":0.1,"line_color":"yellow","line_width":2,"x":{"field":"x"},"y":{"field":"y"}},"id":"6017","type":"Line"},{"attributes":{"line_alpha":0.8,"line_color":"yellow","line_width":2,"x":{"field":"x"},"y":{"field":"y"}},"id":"6016","type":"Line"},{"attributes":{},"id":"6012","type":"Selection"},{"attributes":{},"id":"5965","type":"BasicTickFormatter"},{"attributes":{"line_alpha":0.2,"line_color":"green","line_width":2,"x":{"field":"x"},"y":{"field":"y"}},"id":"5997","type":"Line"},{"attributes":{},"id":"5966","type":"AllLabels"},{"attributes":{"line_alpha":0.8,"line_color":"blue","line_width":2,"x":{"field":"x"},"y":{"field":"y"}},"id":"5976","type":"Line"},{"attributes":{"label":{"value":"Autumn"},"renderers":[{"id":"5998"}]},"id":"6014","type":"LegendItem"},{"attributes":{"label":{"value":"Spring"},"renderers":[{"id":"5961"}]},"id":"5974","type":"LegendItem"}],"root_ids":["5924"]},"title":"Bokeh Application","version":"2.4.2"}}
+        </script>
+        <script type="text/javascript">
+          (function() {
+            const fn = function() {
+              Bokeh.safely(function() {
+                (function(root) {
+                  function embed_document(root) {
+                    
+                  const docs_json = document.getElementById('6250').textContent;
+                  const render_items = [{"docid":"5d0287db-f132-49cb-b13b-6a05165dea0d","root_ids":["5924"],"roots":{"5924":"2b26f85a-3f88-4be5-b527-e6d3271d9c76"}}];
+                  root.Bokeh.embed.embed_items(docs_json, render_items);
+                
+                  }
+                  if (root.Bokeh !== undefined) {
+                    embed_document(root);
+                  } else {
+                    let attempts = 0;
+                    const timer = setInterval(function(root) {
+                      if (root.Bokeh !== undefined) {
+                        clearInterval(timer);
+                        embed_document(root);
+                      } else {
+                        attempts++;
+                        if (attempts > 100) {
+                          clearInterval(timer);
+                          console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
+                        }
+                      }
+                    }, 10, root)
+                  }
+                })(window);
+              });
+            };
+            if (document.readyState != "loading") fn();
+            else document.addEventListener("DOMContentLoaded", fn);
+          })();
+        </script>
+    
+  </body>
+  
+</html>
