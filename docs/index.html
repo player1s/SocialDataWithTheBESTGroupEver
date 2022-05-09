@@ -37,6 +37,7 @@
         $("#includeBikingStations").load("bike_rental_map.html"); 
         $("#HiresPerDay").load("numberOfHiresPerDay.html");
         $("#TemperaturePerDay").load("temperaturePerDay.html");
+        $("#BarchartCorrelations").load("barchartCorrelations.html");
       });
       </script>
 
@@ -131,7 +132,14 @@
               <div class="row">
                 <div class="col-sm-4 p-3 text-center">
                   <h1>Main contributor: weather</h1>
-                  <p>The first map shows the number of cycle hires day by day. While the second map displays the air temperatures in London. Notice something? Indeed, the correlation between these two are 0.64</p>
+                  <p>
+                    The first map shows the number of cycle hires day by day. 
+                    While the second map displays the air temperatures in London. 
+                    Notice the dips at winter, and bumps in summer. 
+                    But what are those 2 days where much more bikes were rented than usual?
+                    Turns out, on these days, the employees of the london metro system organized a strike, 
+                    and the whole metro system was stopped on these 2 days. People took up bikes instead!
+                  </p>
                 </div>
                 
                 <div class="col-sm-4 p-3 text-center" id="HiresPerDay"></div>
@@ -141,8 +149,11 @@
               </div>
   
               <div class="row">
-                <div class="col-sm-12 p-1 text-center">
-                  <h1>idea 2: show boxplots of a correlating variable, explain that correlation is indeeed the case. add correlation data. maybe as a barchart?</h1>
+                <div class="col-sm-4 p-2 text-center">
+                  <h1>But what other weather phenomena influences people's willingness to bike?</h1>
+                  <p></p>
+                </div>
+                <div class="col-sm-8 p-2 text-center" id="BarchartCorrelations">
                 </div>
               </div>
   

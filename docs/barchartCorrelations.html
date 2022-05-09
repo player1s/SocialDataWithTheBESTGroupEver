@@ -1,0 +1,85 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+  
+  <head>
+    
+      <meta charset="utf-8">
+      <title>Bokeh Plot</title>
+      
+      
+        
+          
+        
+        
+          
+        <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-2.4.2.min.js"></script>
+        <script type="text/javascript">
+            Bokeh.set_log_level("info");
+        </script>
+        
+      
+      
+    
+  </head>
+  
+  
+  <body>
+    
+      
+        
+          
+          
+            
+              <div class="bk-root" id="aff62462-39a4-4738-b9be-39e15c76d9b7" data-root-id="14184"></div>
+            
+          
+        
+      
+      
+        <script type="application/json" id="14328">
+          {"7d8d45a4-859a-43c7-ac2e-32fe9e5e4f78":{"defs":[],"roots":{"references":[{"attributes":{"coordinates":null,"data_source":{"id":"14205"},"glyph":{"id":"14206"},"group":null,"hover_glyph":null,"muted_glyph":{"id":"14208"},"nonselection_glyph":{"id":"14207"},"view":{"id":"14210"}},"id":"14209","type":"GlyphRenderer"},{"attributes":{},"id":"14213","type":"BasicTickFormatter"},{"attributes":{"factors":["Wind speed","Amount of clouds","Visibility","Pressure","Temperature","Humidity","Sunshine amount"]},"id":"14187","type":"FactorRange"},{"attributes":{},"id":"14199","type":"BasicTicker"},{"attributes":{"start":-1},"id":"14189","type":"Range1d"},{"attributes":{},"id":"14217","type":"AllLabels"},{"attributes":{"data":{"fill_color":["red","red","green","green","green","red","green"],"top":[-0.19,-0.36,0.33,0.22,0.64,-0.55,0.54],"x":["Wind speed","Amount of clouds","Visibility","Pressure","Temperature","Humidity","Sunshine amount"]},"selected":{"id":"14219"},"selection_policy":{"id":"14218"}},"id":"14205","type":"ColumnDataSource"},{"attributes":{},"id":"14214","type":"AllLabels"},{"attributes":{},"id":"14196","type":"CategoricalTicker"},{"attributes":{"below":[{"id":"14195"}],"center":[{"id":"14197"},{"id":"14201"}],"height":150,"left":[{"id":"14198"}],"renderers":[{"id":"14209"}],"title":{"id":"14185"},"toolbar":{"id":"14203"},"width":800,"x_range":{"id":"14187"},"x_scale":{"id":"14191"},"y_range":{"id":"14189"},"y_scale":{"id":"14193"}},"id":"14184","subtype":"Figure","type":"Plot"},{"attributes":{},"id":"14219","type":"Selection"},{"attributes":{},"id":"14191","type":"CategoricalScale"},{"attributes":{"callback":null,"tooltips":"$name @correlationElements: @$name"},"id":"14202","type":"HoverTool"},{"attributes":{"coordinates":null,"formatter":{"id":"14216"},"group":null,"major_label_policy":{"id":"14217"},"ticker":{"id":"14196"}},"id":"14195","type":"CategoricalAxis"},{"attributes":{"tools":[{"id":"14202"}]},"id":"14203","type":"Toolbar"},{"attributes":{"axis":{"id":"14198"},"coordinates":null,"dimension":1,"group":null,"ticker":null},"id":"14201","type":"Grid"},{"attributes":{},"id":"14216","type":"CategoricalTickFormatter"},{"attributes":{"fill_alpha":{"value":0.2},"fill_color":{"field":"fill_color"},"hatch_alpha":{"value":0.2},"line_alpha":{"value":0.2},"line_color":{"value":"#1f77b4"},"top":{"field":"top"},"width":{"value":0.75},"x":{"field":"x"}},"id":"14208","type":"VBar"},{"attributes":{},"id":"14218","type":"UnionRenderers"},{"attributes":{},"id":"14193","type":"LinearScale"},{"attributes":{"coordinates":null,"formatter":{"id":"14213"},"group":null,"major_label_policy":{"id":"14214"},"ticker":{"id":"14199"}},"id":"14198","type":"LinearAxis"},{"attributes":{"source":{"id":"14205"}},"id":"14210","type":"CDSView"},{"attributes":{"coordinates":null,"group":null,"text":"What influences peoples will to bike?"},"id":"14185","type":"Title"},{"attributes":{"axis":{"id":"14195"},"coordinates":null,"group":null,"ticker":null},"id":"14197","type":"Grid"},{"attributes":{"fill_color":{"field":"fill_color"},"line_color":{"value":"#1f77b4"},"top":{"field":"top"},"width":{"value":0.75},"x":{"field":"x"}},"id":"14206","type":"VBar"},{"attributes":{"fill_alpha":{"value":0.1},"fill_color":{"field":"fill_color"},"hatch_alpha":{"value":0.1},"line_alpha":{"value":0.1},"line_color":{"value":"#1f77b4"},"top":{"field":"top"},"width":{"value":0.75},"x":{"field":"x"}},"id":"14207","type":"VBar"}],"root_ids":["14184"]},"title":"Bokeh Application","version":"2.4.2"}}
+        </script>
+        <script type="text/javascript">
+          (function() {
+            const fn = function() {
+              Bokeh.safely(function() {
+                (function(root) {
+                  function embed_document(root) {
+                    
+                  const docs_json = document.getElementById('14328').textContent;
+                  const render_items = [{"docid":"7d8d45a4-859a-43c7-ac2e-32fe9e5e4f78","root_ids":["14184"],"roots":{"14184":"aff62462-39a4-4738-b9be-39e15c76d9b7"}}];
+                  root.Bokeh.embed.embed_items(docs_json, render_items);
+                
+                  }
+                  if (root.Bokeh !== undefined) {
+                    embed_document(root);
+                  } else {
+                    let attempts = 0;
+                    const timer = setInterval(function(root) {
+                      if (root.Bokeh !== undefined) {
+                        clearInterval(timer);
+                        embed_document(root);
+                      } else {
+                        attempts++;
+                        if (attempts > 100) {
+                          clearInterval(timer);
+                          console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
+                        }
+                      }
+                    }, 10, root)
+                  }
+                })(window);
+              });
+            };
+            if (document.readyState != "loading") fn();
+            else document.addEventListener("DOMContentLoaded", fn);
+          })();
+        </script>
+    
+  </body>
+  
+</html>
