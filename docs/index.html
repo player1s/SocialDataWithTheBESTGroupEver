@@ -38,6 +38,8 @@
         $("#HiresPerDay").load("numberOfHiresPerDay.html");
         $("#TemperaturePerDay").load("temperaturePerDay.html");
         $("#BarchartCorrelations").load("barchartCorrelations.html");
+        $("#COVIDnumberOfCasesPerDay").load("COVIDnumberOfCasesPerDay.html");
+        $("#COVIDnumberOfHiresPerDay").load("COVIDnumberOfHiresPerDay.html");
       });
       </script>
 
@@ -191,19 +193,35 @@
   
               <div class="row">
                 <div class="col-sm-12 p-1 text-center">
-                  <h1>combine cases and rental numbers, explain its weakly negatively correlated</h1>
+                  <h1>Do covid cases have impact on the bike rentals?</h1>
+                  <p>
+                    Compare the two following plots. One is about the rentals during the covid period until recently
+                     (2020-3 to 2022-2), then the other one is about the number of covid cases through London. 
+                     So do the cases interrupt the bike rental patterns? There is a weak negative correlation between the cases
+                     and the rental numbers, but thats more of a coincidence that covid happens to spread more when people 
+                     bike less. 
+                  </p>
                 </div>
               </div>
-  
+
               <div class="row">
-                <div class="col-sm-12 p-1 text-center">
-                  <h1>talk about that it is the lockdowns that affects the numbers the most</h1>
-                </div>
+                <div class="col-sm-6 p-2 text-center" id="COVIDnumberOfHiresPerDay"></div>
+                <div class="col-sm-6 p-2 text-center" id="COVIDnumberOfCasesPerDay"></div>
               </div>
-  
+
               <div class="row">
-                <div class="col-sm-12 p-1 text-center">
-                  <h1> more? </h1>
+                <div class="col-sm-4 p-2 text-center">
+                  <h1>Indirect effects: lockdowns</h1>
+                  <p>
+                    However, rise in covid cases causes lockdowns, which does directly affect the rental numbers. Check the 
+                    following dates. There is a noticeable drop in rents after the first lockdown and remote work rules reestablished.
+                  </p>
+                </div>
+                <div class="col-sm-8 p-2 text-center">
+                  <h1 class="display-1">2020-3-23: Start of Lockdown 1</h1>
+                  <h1 class="display-1">2020-9-22: Remote work and curfew rules reestablished</h1>
+                  <h1 class="display-1">2020-11-5: Start of Lockdown 2</h1>
+                  <h1 class="display-1">2021-1-6: Start of Lockdown 3</h1>
                 </div>
               </div>
   
