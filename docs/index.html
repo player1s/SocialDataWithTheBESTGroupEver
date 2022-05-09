@@ -36,6 +36,7 @@
       $(function(){
         $("#includeBikingStations").load("bike_rental_map.html"); 
         $("#HiresPerDay").load("numberOfHiresPerDay.html");
+        $("#TemperaturePerDay").load("temperaturePerDay.html");
       });
       </script>
 
@@ -158,14 +159,15 @@
               </div>
   
               <div class="row">
-                <div class="col-sm-6 p-2 text-center">
+                <div class="col-sm-4 p-3 text-center">
                   <h1>Main contributor: weather</h1>
-                  <p>The first map shows the number of cycle hires day by day. While the second map displays the air temperatures in London</p>
+                  <p>The first map shows the number of cycle hires day by day. While the second map displays the air temperatures in London. Notice something?</p>
                 </div>
                 
-                <div class="col-sm-6 p-2 text-center" id="HiresPerDay">
+                <div class="col-sm-4 p-3 text-center" id="HiresPerDay"></div>
+                <div class="col-sm-4 p-3 text-center" id="TemperaturePerDay"></div>
                   
-                </div>
+                
               </div>
   
               <div class="row">
